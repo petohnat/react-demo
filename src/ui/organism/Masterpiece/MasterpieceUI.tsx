@@ -2,7 +2,7 @@ import React from "react";
 import { Theme, createMuiTheme, createStyles } from "@material-ui/core/styles";
 import { Masterpiece } from "ui/organism/Masterpiece/MasterpieceResource";
 import {CircularProgress} from "@material-ui/core";
-import { User } from "ui/organism/User/state";
+import { User } from "service/User/state";
 import { Masterpieces } from "../Dashboard/state";
 import Snackbar from "../../molecule/Snackbar/Snackbar";
 import TRANSLATIONS from "config/localizationConfig";

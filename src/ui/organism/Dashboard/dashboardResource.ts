@@ -1,4 +1,4 @@
-import {UserResponse, User} from "ui/organism/User/state";
+import {UserResponse, User} from "service/User/state";
 
 export function createUser(userData: UserResponse): User {
     const loggedUser: User = {

@@ -19,7 +19,7 @@ import {protectedRoutes, ROUTE} from "../../../app/routes";
 import {RouteConfig} from "react-router-config";
 import {Switch, Link, RouteComponentProps} from "react-router-dom";
 import PrivateRoute from "../PrivateRoute/PrivateRouteUI";
-import {User} from "../../organism/User/state";
+import {User} from "../../../service/User/state";
 import {withRouter} from "react-router";
 import {
     PowerSettingsNewRounded,

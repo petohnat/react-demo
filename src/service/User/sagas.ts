@@ -2,8 +2,8 @@ import {call, put, select} from "redux-saga/effects";
 import UserAction, {loginActionType} from "./action";
 import {login} from "app/AppClient";
 import {createWatchDaemon} from "sagas/sagaHelpers";
-import {localizationLanguageSelector} from "../App/selectors";
-import TRANSLATIONS from "../../../config/localizationConfig";
+import {localizationLanguageSelector} from "../../ui/organism/App/selectors";
+import TRANSLATIONS from "../../config/localizationConfig";
 
 function* loginUser(loginAction: loginActionType) {
     try {

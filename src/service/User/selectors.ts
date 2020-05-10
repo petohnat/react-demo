@@ -1,4 +1,4 @@
-import {NAMESPACE, IState, DEFAULT_STATE} from "ui/organism/User/state";
+import {NAMESPACE, IState, DEFAULT_STATE} from "service/User/state";
 
 // Used in clientRenderer
 export const userStateSelector = (globalState: unknown): IState => (

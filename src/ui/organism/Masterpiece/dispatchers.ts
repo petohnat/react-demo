@@ -1,4 +1,4 @@
-import userAction from "ui/organism/User/action";
+import userAction from "service/User/action";
 import masterpieceAction from "ui/organism/Masterpiece/action";
 import {ICallbackProps} from "ui/organism/Masterpiece/MasterpieceUI";
 

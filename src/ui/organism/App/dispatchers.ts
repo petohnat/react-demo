@@ -1,5 +1,5 @@
 import appAction from "ui/organism/App/action";
-import userAction from "ui/organism/User/action";
+import userAction from "service/User/action";
 import { ICallbackProps } from "ui/organism/App/AppUI";
 
 export default {

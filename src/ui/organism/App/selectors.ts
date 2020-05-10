@@ -1,7 +1,7 @@
 import {createSelector, createStructuredSelector} from "reselect";
 import {IDataProps, IExternalProps} from "./AppUI";
 import {NAMESPACE, IState, DEFAULT_STATE} from "./state";
-import {userStateSelector} from "../User/selectors";
+import {userStateSelector} from "../../../service/User/selectors";
 
 // Used in clientRenderer
 export const stateSelector = (globalState: unknown): IState => (

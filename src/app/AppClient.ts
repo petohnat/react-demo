@@ -1,5 +1,5 @@
 import {createUser} from "ui/organism/Dashboard/dashboardResource";
-import {User, UserCredentials, UserResponse} from "ui/organism/User/state";
+import {User, UserCredentials, UserResponse} from "service/User/state";
 import {Masterpiece} from "ui/organism/Masterpiece/MasterpieceResource";
 
 export function getMasterpieces(): Masterpiece[] {

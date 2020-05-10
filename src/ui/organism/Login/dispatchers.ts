@@ -1,4 +1,4 @@
-import userAction from "ui/organism/User/action";
+import userAction from "service/User/action";
 import {ICallbackProps} from "ui/organism/Login/LoginUI";
 
 export default {

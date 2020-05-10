@@ -8,7 +8,7 @@ import NavbarUI from "ui/molecule/Navbar/NavbarUI";
 import { ThemeProvider as MuiThemeProvider } from '@material-ui/core/styles';
 import {theme} from "app/theme";
 import {History} from "history";
-import {User} from "../User/state";
+import {User} from "../../../service/User/state";
 import MiniDrawer from "../../molecule/DashboardNavbar/MiniVariantNavbarUI";
 import Login from "../Login/Login";
 

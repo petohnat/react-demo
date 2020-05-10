@@ -1,6 +1,6 @@
 import * as applicationSagas from "ui/organism/App/sagas";
 import * as dashboardSagas from "ui/organism/Dashboard/sagas";
-import * as userSagas from "ui/organism/User/sagas";
+import * as userSagas from "service/User/sagas";
 
 interface ISagaCollection {
     init: Array<() => any>,

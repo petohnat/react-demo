@@ -1,7 +1,7 @@
 import React from "react";
 import {Box, Container, Paper} from "@material-ui/core";
 import SectionTitleUI from "ui/atom/SectionTitle/SectionTitleUI";
-import {User} from "ui/organism/User/state";
+import {User} from "service/User/state";
 import {History} from "history";
 import {ROUTE} from "app/routes";
 import LoginFormUI from "ui/forms/LoginForm/LoginFormUI";

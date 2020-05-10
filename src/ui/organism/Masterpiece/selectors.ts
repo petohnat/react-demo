@@ -1,5 +1,5 @@
 import { createSelector, createStructuredSelector } from "reselect";
-import {userStateSelector} from "ui/organism/User/selectors";
+import {userStateSelector} from "service/User/selectors";
 import {dashboardStateSelector} from "ui/organism/Dashboard/selectors";
 import {IState, Masterpieces} from "ui/organism/Dashboard/state";
 import {IDataProps} from "ui/organism/Masterpiece/MasterpieceUI";
